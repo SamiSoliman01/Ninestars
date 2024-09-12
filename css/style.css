@@ -1,0 +1,113 @@
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+ .main{
+    background-color: #fef8f5;
+    
+ }
+ .main-service{
+    background-color: #fef8f5;
+ }
+ .main-img .layer-img {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+ }
+ #Portfolio .nav-item button.active{
+   background-color:#eb5d1e ;
+   color: white;
+ }
+ .main-img .img-caption{
+    position: absolute;
+    bottom: ;: 100%;
+    transition: all 0.5s;
+ }
+ .main-img{
+    cursor:pointer;
+ }
+ #Portfolio .main-img .layer-img:hover{
+    opacity: 1;
+    transition: all 0.5s;
+ }
+ .main-img img{
+    transition: all 0.5s;
+ }
+ #Portfolio .main-img:hover .img-caption{
+    bottom: 0;;
+ }
+ #Portfolio .main-img:hover img{
+    transform: scale(1.1);
+ }
+ /* ************ */
+.container .team-section {
+   text-align: center;
+   padding: 50px 0;
+}
+.container .team-section h3 {
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+.container .team-section p {
+   margin-bottom: 40px;
+   color: #6c757d;
+}
+.team-section .team-member {
+   transition: transform 0.3s ease-in-out;
+}
+.team-member:hover {
+   transform: scale(1.1);
+}
+.social-icons {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.social-icons a {
+   color: rgb(43, 39, 39);
+   font-size: 16px;
+}
+.team-member img {
+   width: 100%;
+   border-radius: 8px;
+}
+.team-member .card-body {
+   text-align: center;
+}
+.team-member .card-body h5 {
+   margin-bottom: 0;
+   font-size: 18px;
+   font-weight: bold;
+}
+.team-member .card-body p {
+   margin-top: 5px;
+   color: #474b50;
+   font-size: 14px;
+}
+ /* ************ */
+
+.animate{
+    animation-name: simo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.accordion-button::after {
+    margin-left:0 !important;
+}
+
+@keyframes simo{
+    0%{
+       position: relative;
+       bottom: 0px;
+    }
+    100%{
+       position: relative;
+       bottom: 20px;
+    }
+}
